@@ -8,12 +8,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet var usdLabel: UILabel!
+    @IBOutlet var aedLabel: UILabel!
+    @IBOutlet var uzsLabel: UILabel!
+    @IBOutlet var tryLabel: UILabel!
+    @IBOutlet var rubLabel: UILabel!
+    @IBOutlet var cadLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Tricj")
+        
+        
+        
     }
 
 
+    @IBAction func getRatesButton(_ sender: Any) {
+        
+        
+        
+        
+    }
 }
 
